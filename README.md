@@ -61,6 +61,13 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
   3. **GradientBoosting Regressor-** Boosting reduces error mainly by reducing bias. GridSearchCV used to optimize parameters
   
 ## Model Performance
+The GradientBoosting regressor was the best performing model.
+
+* **GradientBoosting Regressor:** RMSLE:  0.100   R^2: 0.945
+* **Random Forest:** RMSLE:  0.161   R^2:  0.915 
+* **Multiple Linear Regression:** RMSLE: 0.275 R^2: 0.856
+
+                          
   
 
 
