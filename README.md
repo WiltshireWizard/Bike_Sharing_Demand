@@ -37,14 +37,19 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 ## EDA
 * I looked at the distributions of the data and the value counts for the various categorical variables. 
 * Created Boxplots to explore how categorical variables relate to the count column (demand).
+
 ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/Box_plots.png)
+
 * Identified unusual seasonal variation with peak usage in the autumn. After further analysis seasons were found to be poorly defined and seasons were redefined to contain the correct months.
+
 * Point plots to explore how demand varies with time of the day and other variables.
+
 ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/pp1.png)
 
 
 * Rush hour variable created to capture the peaks in usage at typical commuting times.
 * Explored continuos weather variables relationship with demand by creating regression plots
+
 ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/regplot.png)
 
 
@@ -54,15 +59,17 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
    2. Data grouped into humidity bins.
    3. Average windspeed calculated for each humidity bin.
    4. Windspeeds of 0 are replaced by the average windspeed of the associated humidity bin.
- * Windspeed also appeared to show a different relationship with count for windspeeds above and below 20mph.
+* Windspeed also appeared to show a different relationship with count for windspeeds above and below 20mph.
+
 ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/windspeed.png)
  
  
  * Normalized the count data.
  
- 
  ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/count_distribution.png)
  ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/Normalized.png)
+
+
 
 ## Model building
 * Categorical variables converted to dummy variables.
