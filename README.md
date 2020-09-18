@@ -37,7 +37,7 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 ## EDA
 * I looked at the distributions of the data and the value counts for the various categorical variables. 
 * Created Boxplots to explore how categorical variables relate to the count column (demand).
-![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/Box_plots.PNG "Box Plots")
+![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/Box_plots.png)
 * Identified unusual seasonal variation with peak usage in the autumn. After further analysis seasons were found to be poorly defined and seasons were redefined to contain the correct months.
 * Point plots to explore how demand varies with time of the day and other variables.
 * Rush hour variable created to capture the peaks in usage at typical commuting times.
