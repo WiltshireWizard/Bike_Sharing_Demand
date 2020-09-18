@@ -64,7 +64,7 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/windspeed.png)
  
  
- * Normalized the count data.
+ * Normalized the count data using a log transformation.
  
  ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/count_distribution.png)
  ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/Normalized.png)
