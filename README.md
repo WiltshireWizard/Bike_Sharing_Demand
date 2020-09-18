@@ -35,6 +35,20 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 * Weather data converted from numbers to simplified description of weather conditions : {1: Clear, 2: Cloudy, 3: Light rain, 4: Heavy rain}
 
 ## EDA
-
+* I looked at the distributions of the data and the value counts for the various categorical variables. 
+* Created Boxplots to explore how categorical variables relate to the count column (demand).
+* Identified unusual seasonal variation with peak usage in the autumn. After further analysis seasons were found to be poorly defined and seasons were redefined to contain the correct months.
+* Point plots to explore how demand varies with time of the day and other variables.
+* Rush hour variable created to capture the peaks in usage at typical commuting times.
+* Explored continuos weather variables relationship with demand by creating regression plots
+* Identified that windspeeds of 0 were likely due to faults in data collection.
+* Created a function to fill in faulty windspeeds: 
+   1. Humidty shows the highest correaltion with windspeed.
+   2. Data grouped into humidity bins.
+   3. Average windspeed calculated for each humidity bin.
+   4. Windspeeds of 0 are replaced by the average windspeed of the associated humidity bin.
+ * Windspeed also appeared to show a different relationship with count for windspeeds above and below 20mph.
+ * comparison plot
+ * Normalized the count data.
 
 
