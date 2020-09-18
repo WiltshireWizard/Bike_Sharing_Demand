@@ -7,3 +7,12 @@
 * An initial Linear Regression model and Random Forest regressor were used to gauge a baseline performance.
 * Gradient Boosting Regresser and Support Vector Machine Regressor were optimized using GridSearchCV.
 * Optimized Gradient Boosting Regressor offered the best performance with an R^2 value of 0.945 and RMSLE of 0.100
+## Code and Resources Overview:
+* **Python Version:** 3.7.6
+* **Packages:** pandas, numpy, sklearn, matplotlib and seaborn
+## Data Collection
+*The data was sourced from the Bike Sharing Demand competition on Kaggle:
+https://www.kaggle.com/c/bike-sharing-demand/overview
+## Data Cleaning
+
+
