@@ -13,7 +13,7 @@
 ## Data Collection
 *The data was sourced from the Bike Sharing Demand competition on Kaggle:
 https://www.kaggle.com/c/bike-sharing-demand/overview
-* **Original data:** 
+ **Original data:** 
 * datetime - hourly date + timestamp.  
 * season -  1 = spring, 2 = summer, 3 = fall, 4 = winter.
 * holiday - whether the day is considered a holiday.
