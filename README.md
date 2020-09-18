@@ -30,5 +30,11 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 * registered - number of registered user rentals initiated.
 * count - number of total rentals.
 ## Data Cleaning
+* Made Columns for Hour, Day of the Week, Month and Year, extracting these from the datetime object.
+* Convert season data from numbers to season names.
+* Weather data converted from numbers to simplified description of weather conditions : {1: Clear, 2: Cloudy, 3: Light rain, 4: Heavy rain}
+
+## EDA
+
 
 
