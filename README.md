@@ -51,4 +51,16 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
  * comparison plot
  * Normalized the count data.
 
+## Model building
+* Categorical variables converted to dummy variables.
+* Data split into a training and testing set with a test size of 30%.
+
+* I tried Three different models:
+  1. **Multiple Linear Regression -** as a baseline model.
+  2. **Random Forest -** Is a robust model that is less influenced by outliers.
+  3. **GradientBoosting Regressor-** Boosting reduces error mainly by reducing bias. GridSearchCV used to optimize parameters
+  
+## Model Performance
+  
+
 
