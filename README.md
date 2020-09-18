@@ -48,7 +48,7 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 
 
 * Rush hour variable created to capture the peaks in usage at typical commuting times.
-* Explored continuos weather variables relationship with demand by creating regression plots
+* Explored continuos weather variables relationship with demand by creating regression plots:
 
 ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/regplot.png)
 
@@ -61,10 +61,11 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
    4. Windspeeds of 0 are replaced by the average windspeed of the associated humidity bin.
 * Windspeed also appeared to show a different relationship with count for windspeeds above and below 20mph:
 
+
 ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/windspeed.png)
  
  
- * Normalized the count data using a log transformation.
+ * Normalized the count data using a log transformation:
  
  ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/count_distribution.png)
  ![alt text](https://github.com/WiltshireWizard/Bike_Sharing_Demand/blob/master/Normalized.png)
@@ -83,9 +84,9 @@ https://www.kaggle.com/c/bike-sharing-demand/overview
 ## Model Performance
 The GradientBoosting regressor was the best performing model.
 
-* **GradientBoosting Regressor:** RMSLE:  0.100   R^2: 0.945
-* **Random Forest:** RMSLE:  0.161   R^2:  0.915 
-* **Multiple Linear Regression:** RMSLE: 0.275 R^2: 0.856
+* **GradientBoosting Regressor:** RMSLE:  0.100               R^2: 0.945
+* **Random Forest:** RMSLE:  0.161                            R^2:  0.915 
+* **Multiple Linear Regression:** RMSLE: 0.275                R^2: 0.856
 
                           
   
